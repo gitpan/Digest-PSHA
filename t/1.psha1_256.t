@@ -15,8 +15,6 @@ BEGIN { use_ok('Digest::PSHA') };
 
 use Digest::PSHA qw / p_sha1 p_sha256 /;
 
-require '/opt/devel/my_git_from_radc2/scada_trafgen/lib/ScadaUtils.pm';
-
 my $secret = ' 55 aa eb f9 51 b3 ed ef 84 c6 02 c5 f1 72 c1 aa ';
 my $salt   = ' 13 e6 db 5d c1 23 5c f6 4f 89 ce 70 41 0c 52 8d ';
 

@@ -13,7 +13,7 @@ require Exporter;
 
 our @ISA = qw(Exporter);
 our @EXPORT_OK = qw / p_sha1 p_sha256 /;
-our $VERSION = '0.50';
+our $VERSION = '0.51';
 
 sub p_sha1
 { 
